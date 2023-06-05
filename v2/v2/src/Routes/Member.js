@@ -7,8 +7,15 @@ function Members() {
             <div>
                 <Navbar/>
             </div>
-            <div>
+            <div className="flex flex-wrap justify-around p-5">
                 <MemberCard/>
+                <MemberCard/>
+                <MemberCard/>
+                <MemberCard/> 
+                <MemberCard/>
+                <MemberCard/>
+                <MemberCard/>
+                <MemberCard/> 
             </div>
         </div>
     );

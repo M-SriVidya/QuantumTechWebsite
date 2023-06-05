@@ -2,8 +2,8 @@ import { Link } from "react-router-dom";
 
 function MemberCard() {
     return ( 
-        <div className="w-[350px] flexbox bg-white border border-gray-200 shadow dark:bg-gray-800 dark:border-gray-700">
-            <img className="m-auto rounded-full h-60 w-60" src="https://staff.pes.edu/assets/uploads/faculty/20210616072017000129.jpg" alt=""/>
+        <div className="rounded-lg w-[350px] flexbox bg-white border border-gray-200 shadow dark:bg-gray-800 dark:border-gray-700 m-2">
+            <img className="m-auto rounded-full h-60 w-60 p-5" src="https://staff.pes.edu/assets/uploads/faculty/20210616072017000129.jpg" alt=""/>
             <div className="p-5">
                 <h5 className="mb-3 text-2xl font-bold tracking-tight text-center text-gray-900 dark:text-white">Dr. Gajanan V Honnavar</h5>
                 <p className="mb-3 font-bold text-xl text-center text-gray-700 dark:text-gray-300">Associate Professor</p>
