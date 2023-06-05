@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: #FFFFFF;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    margin: 10px;
+    text-align: center;
+    font-family: Oxygen;
+    padding: 25px;
+    background-color: #FFFFFF;
+}
+
+.card img{
+    height: 300px; 
+    width: 300px;
+}
+
+.card p{
+    padding: 10px;
+}
+
+.intro {
+    color: rgb(52,90,187);
+    font-size: 18px;
+}
+
+.card button {
+    padding: 10px;
+    color: rgb(255, 204, 1);
+    background-color: #000000;
+    text-align: center;
+    width: 200px;
+    font-size: 16px;
+}
+
+.card button:hover {
+    opacity: 0.7;
+}

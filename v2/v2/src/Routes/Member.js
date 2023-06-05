@@ -1,5 +1,5 @@
 import Navbar from "../Components/Navbar";
-import Card from "../Components/MemberCard";
+import MemberCard from "../Components/MemberCard";
 
 function Members() {
     return (
@@ -8,7 +8,7 @@ function Members() {
                 <Navbar/>
             </div>
             <div>
-                <Card/>
+                <MemberCard/>
             </div>
         </div>
     );
