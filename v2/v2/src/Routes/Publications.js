@@ -7,7 +7,7 @@ function Publications() {
             <div>
                 <Navbar/>
             </div>
-            <div className="flex flex-wrap justify-around p-5">
+            <div className="flex flex-wrap justify-around p-5 bg-black">
                 <PublicationCard/>
                 <PublicationCard/>
                 <PublicationCard/>
