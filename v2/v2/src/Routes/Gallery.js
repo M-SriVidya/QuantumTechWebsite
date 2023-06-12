@@ -1,6 +1,6 @@
 import Navbar from "../Components/Navbar";
 
-function About() {
+function Gallery() {
     return (       
         <div className="bg-black">
             <Navbar/>
@@ -46,4 +46,4 @@ function About() {
     );
 }
 
-export default About;
+export default Gallery;
