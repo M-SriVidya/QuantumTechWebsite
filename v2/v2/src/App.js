@@ -3,6 +3,7 @@ import Home from "./Routes/Home";
 import Members from "./Routes/Member";
 import Publications from "./Routes/Publications";
 import Gallery from "./Routes/Gallery";
+import Projects from "./Routes/Projects";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Route path = "/Members" element = {<Members/>} />
         <Route path = "/Publications" element = {<Publications/>} />
         <Route path = "/Gallery" element = {<Gallery/>} />
+        <Route path = "/Projects" element = {<Projects/>} />
       </Routes>
     </BrowserRouter>
   );
