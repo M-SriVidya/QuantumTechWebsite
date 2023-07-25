@@ -126,13 +126,28 @@ const publicationsData = [
   // Student project supervision data array
   const projectsData = [
     {
+      type: "Undergraduate (Supervised)",
+      title: "Design of a new Quantum Multiplier based on novel Indian Algorithms",
+      description: "Aditya Kumar, Akash H Rao, Navaneeth N Anchan, Shivakiran T S"
+    },
+    {
+      type: "Undergraduate (Supervised)",
+      title: "Synthesis, I-V analysis, and frequency response of Co-doped CuS and ZnS Quantum Dot thin films for memory applications",
+      description: "Karan Aggarwal, Yatharth Bakshi, P Shri Gurudatta, Gajanan Kamat"
+    },
+    {
+      type: "Undergraduate (Supervised)",
+      title: "Modelling of solar cells using novel perovskite structure",
+      description: "Tadi Surya Reddy"
+    },
+    {
       type: "Doctoral (Supervised)",
       title: "Mr. Belay Getachew Hailemariam",
       description: "Graduated from Bahir Dar University, Bahir Dar, Ethiopia on 15th July 2021.",
     },
     {
       type: "Doctoral (Supervised)",
-      title: "Mrs Parul Goel",
+      title: "Mrs. Parul Goel",
       description: "Successfully defended her thesis on 21st April, 2023. Visvesvaraya Technological University (VTU) Belagavi, India",
     },
     {
