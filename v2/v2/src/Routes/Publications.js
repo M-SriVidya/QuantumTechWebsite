@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "../Components/Navbar";
+import Footer from "../Components/Footer";
 import PublicationCard from "../Components/PublicationCard";
 import { publicationsData } from "../data"; // Assuming the publications data is imported from a data file
 
@@ -22,6 +23,7 @@ function Publications() {
           />
         ))}
       </div>
+      <Footer />  
     </div>
   );
 }
