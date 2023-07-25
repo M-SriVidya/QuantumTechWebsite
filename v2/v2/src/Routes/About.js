@@ -1,4 +1,5 @@
 import Navbar from "../Components/Navbar";
+import Footer from "../Components/Footer";
 
 function About() {
     return (
@@ -17,6 +18,7 @@ function About() {
                 <p class="text-3xl font-semibold text-blue-500 mt-8">Impacts</p>
                 <p class="text-xl text-white mt-4 ml-6"> The potential impact of quantum computing on multiple fields is immense. Quantum algorithms have the potential to revolutionize cryptography, enabling secure communication protocols that are resistant to attacks by quantum computers. Additionally, quantum computers have the potential to solve optimization problems more efficiently, leading to advancements in logistics, supply chain management, and resource allocation. Furthermore, quantum machine learning algorithms could enhance pattern recognition capabilities, enabling breakthroughs in artificial intelligence research. </p>
             </div>
+            <Footer />
         </div>
     );
 }

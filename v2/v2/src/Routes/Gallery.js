@@ -1,4 +1,5 @@
 import Navbar from "../Components/Navbar";
+import Footer from "../Components/Footer";
 
 function Gallery() {
     return (       
@@ -41,6 +42,7 @@ function Gallery() {
             <div>
                 <img class="h-1/2 w-1/2 pb-12 rounded-lg mx-auto" src="https://cdn.discordapp.com/attachments/1025099364584149094/1132885198304985099/PHOTO-2023-05-21-09-51-46.jpg" alt=""/>
             </div>
+            <Footer />
         </div>
     );
 }

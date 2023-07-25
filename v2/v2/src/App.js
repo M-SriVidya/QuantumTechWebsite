@@ -1,4 +1,5 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import React, { useEffect } from "react";
 import Home from "./Routes/Home";
 import About from "./Routes/About";
 import Members from "./Routes/Member";
@@ -7,6 +8,9 @@ import Gallery from "./Routes/Gallery";
 import Projects from "./Routes/Projects";
 
 function App() {
+  useEffect(() => {
+    document.title = "Quantamania"; // Change the title here
+  }, []);
   return (
     <BrowserRouter>
       <Routes>

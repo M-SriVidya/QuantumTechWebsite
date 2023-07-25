@@ -1,6 +1,7 @@
 import React from "react";
 import ProjectCard from "../Components/ProjectCard";
 import Navbar from "../Components/Navbar";
+import Footer from "../Components/Footer";
 import { projectsData } from "../data"; // Assuming the project data is imported from a data file
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         />
       ))}
     </div>
+    <Footer />
     </div>
   );
 }

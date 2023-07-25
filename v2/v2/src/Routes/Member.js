@@ -1,4 +1,5 @@
 import Navbar from "../Components/Navbar";
+import Footer from "../Components/Footer";
 import MemberCard from "../Components/MemberCard";
 // import members from "../data"; // Import the members array here
 
@@ -207,6 +208,7 @@ function Members() {
           />
         ))}
       </div>
+      <Footer />
     </div>
   );
 }
