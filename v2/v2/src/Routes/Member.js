@@ -224,10 +224,11 @@ function Members() {
       <div>
         <Navbar />
       </div>
-      <div className="flex flex-col items-center justify-center p-5 bg-black">
+      <div className="bg-[url('https://media.discordapp.net/attachments/1025099364584149094/1133843402098741484/image.png')] ">
+      <div className="flex flex-col items-center justify-center p-5 ">
         <h1 className="text-4xl font-bold text-white mt-6" >Team</h1>
       </div>
-      <div className="flex flex-wrap justify-around p-5 bg-black">
+      <div className="flex flex-wrap justify-around p-5 ">
         {mainMembers.map((member, index) => (
           <MemberCard
             key={index}
@@ -239,10 +240,10 @@ function Members() {
           />
         ))}
       </div>
-      <div className="flex flex-col items-center justify-center p-5 bg-black">
+      <div className="flex flex-col items-center justify-center p-5 ">
         <h1 className="text-4xl font-bold text-white">Academic Collaboration</h1>
       </div>
-      <div className="flex flex-wrap justify-around p-5 bg-black">
+      <div className="flex flex-wrap justify-around p-5 ">
         <MemberCard
           name="Ms Parul Goel"
           role="St. Joseph College, bangalore"
@@ -251,10 +252,10 @@ function Members() {
           link="https://www.sjc.ac.in/department-of-computer-science"
         />
       </div>
-      <div className="flex flex-col items-center justify-center p-5 bg-black">
+      <div className="flex flex-col items-center justify-center p-5 ">
         <h1 className="text-4xl font-bold text-white">Current Students</h1>
       </div>
-      <div className="flex flex-wrap justify-around p-5 bg-black">
+      <div className="flex flex-wrap justify-around p-5 ">
         {members.map((member, index) => (
           <StudentCard
             key={index}
@@ -264,10 +265,10 @@ function Members() {
           />
         ))}
       </div>
-      <div className="flex flex-col items-center justify-center p-5 bg-black">
+      <div className="flex flex-col items-center justify-center p-5 ">
         <h1 className="text-4xl font-bold text-white">Alumni</h1>
       </div>
-      <div className="flex flex-wrap justify-around p-5 bg-black">
+      <div className="flex flex-wrap justify-around p-5 ">
         {alumni.map((member, index) => (
           <StudentCard
             key={index}
@@ -277,10 +278,10 @@ function Members() {
           />
         ))}
       </div>
-      <div className="flex flex-col items-center justify-center p-5 bg-black">
+      <div className="flex flex-col items-center justify-center p-5 ">
         <h1 className="text-4xl font-bold text-white">Doctoral Students</h1>
       </div>
-      <div className="flex flex-wrap justify-around p-5 bg-black">
+      <div className="flex flex-wrap justify-around p-5 ">
         {docstudents.map((member, index) => (
           <StudentCard
             key={index}
@@ -290,7 +291,7 @@ function Members() {
           />
         ))}
       </div>
-
+      </div>
       <Footer />
     </div>
   );
