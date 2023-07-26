@@ -8,7 +8,7 @@ function Footer(props) {
                 <div class="sm:flex sm:items-center sm:justify-between">
                     <a href="https://quantum-tech-website.vercel.app/" class="flex items-center mb-4 sm:mb-0">
                         {/* <img src="" class="h-8 mr-3" alt="" /> */}
-                        <span class="self-center text-l font-semibold whitespace-nowrap dark:text-white">Quantum Research Group, PES University Electronic City Campus</span>
+                        <span class="self-center text-l font-semibold whitespace-nowrap dark:text-white">Quantum Tech Group, PES University Electronic City Campus</span>
                     </a>
                     <ul class="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
                         <li>

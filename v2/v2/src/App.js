@@ -6,6 +6,7 @@ import Members from "./Routes/Member";
 import Publications from "./Routes/Publications";
 import Gallery from "./Routes/Gallery";
 import Projects from "./Routes/Projects";
+import ResearchFacilities from "./Routes/ResearchFacilities";
 
 function App() {
   useEffect(() => {
@@ -20,6 +21,7 @@ function App() {
         <Route path = "/Publications" element = {<Publications/>} />
         <Route path = "/Gallery" element = {<Gallery/>} />
         <Route path = "/Projects" element = {<Projects/>} />
+        <Route path = "/Facilities" element = {<ResearchFacilities/>} />
       </Routes>
     </BrowserRouter>
   );

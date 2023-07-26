@@ -8,6 +8,15 @@ function Gallery() {
             <div className="m-8 font-semibold text-white text-2xl text-center">People</div>
             <div class="grid grid-cols-2 md:grid-cols-3 gap-12">
                 <div>
+                    <img class="h-auto max-w-full rounded-lg" src="https://cdn.discordapp.com/attachments/1025099364584149094/1133087715588591646/PHOTO-2023-07-24-18-09-06.jpg" alt=""/>
+                </div>
+                <div>
+                    <img class="h-auto max-w-full rounded-lg" src="https://cdn.discordapp.com/attachments/1025099364584149094/1133087788259102730/PHOTO-2023-07-24-22-47-22.jpg" alt=""/>
+                </div>
+                <div>
+                    <img class="h-auto max-w-full rounded-lg" src="https://cdn.discordapp.com/attachments/1025099364584149094/1133087789873893406/PHOTO-2023-07-24-22-47-19.jpg" alt=""/>
+                </div>
+                <div>
                     <img class="h-auto max-w-full rounded-lg" src="https://cdn.discordapp.com/attachments/1025099364584149094/1133237003564089405/PHOTO-2023-06-06-17-44-20.jpg" alt=""/>
                 </div>
                 <div>
@@ -17,13 +26,22 @@ function Gallery() {
                     <img class="h-auto max-w-full rounded-lg" src="https://cdn.discordapp.com/attachments/1025099364584149094/1133087787747381318/PHOTO-2023-07-24-22-47-22.jpg" alt=""/>
                 </div>
                 <div>
-                    <img class="h-auto max-w-full rounded-lg" src="https://cdn.discordapp.com/attachments/1025099364584149094/1133087715588591646/PHOTO-2023-07-24-18-09-06.jpg" alt=""/>
+                    <img class="h-auto max-w-full rounded-lg" src="https://cdn.discordapp.com/attachments/1025099364584149094/1133818704120000562/PXL_20230203_150142245.NIGHT.jpg" alt=""/>
                 </div>
                 <div>
-                    <img class="h-auto max-w-full rounded-lg" src="https://cdn.discordapp.com/attachments/1025099364584149094/1133087788259102730/PHOTO-2023-07-24-22-47-22.jpg" alt=""/>
+                    <img class="h-auto max-w-full rounded-lg" src="https://cdn.discordapp.com/attachments/1025099364584149094/1133818701792165958/PXL_20230203_145352841.NIGHT.jpg" alt=""/>
                 </div>
                 <div>
-                    <img class="h-auto max-w-full rounded-lg" src="https://cdn.discordapp.com/attachments/1025099364584149094/1133087789873893406/PHOTO-2023-07-24-22-47-19.jpg" alt=""/>
+                    <img class="h-auto max-w-full rounded-lg" src="https://cdn.discordapp.com/attachments/1025099364584149094/1133818703469887488/PXL_20230203_150045305.NIGHT1.jpg" alt=""/>
+                </div>
+                <div>
+                    <img class="h-auto max-w-full rounded-lg" src="https://cdn.discordapp.com/attachments/1025099364584149094/1133818698826788925/20230203_145722.jpg" alt=""/>
+                </div>
+                <div>
+                    <img class="h-auto max-w-full rounded-lg" src="https://cdn.discordapp.com/attachments/1025099364584149094/1133818699841814668/20230203_154327.jpg" alt=""/>
+                </div>
+                <div>
+                    <img class="h-auto max-w-full rounded-lg" src="https://cdn.discordapp.com/attachments/1025099364584149094/1133821585212571879/IMG_20230203_142042.jpg" alt=""/>
                 </div>
             </div>
             <hr class="w-1/2 h-1 mx-auto my-8 bg-gray-100 border-0 rounded dark:bg-gray-700"></hr>
