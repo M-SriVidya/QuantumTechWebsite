@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 
 function MemberCard(props) {
-  const { name, role, campus, image, link } = props;
+  const { name, role, designation, image, link } = props;
 
   return (
     <div className="rounded-lg w-[350px] flexbox bg-white border border-gray-200 shadow dark:bg-gray-800 dark:border-black m-6">
@@ -13,10 +13,10 @@ function MemberCard(props) {
         <p className="mb-3 font-bold text-xl text-center text-gray-700 dark:text-gray-300">
           {role}
         </p>
-        <p className="font-bold text-center text-gray-700 dark:text-gray-400">
-          {campus}
+        <p className="font-bold text-l text-center text-gray-700 dark:text-gray-400">
+          {designation}
         </p>
-        <button className="flex m-auto p-2">
+        <button className="flex m-auto p-4">
           <Link
             to={link}
             className="justify-center inline-flex items-center align-self-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"

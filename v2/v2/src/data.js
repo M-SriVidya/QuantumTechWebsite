@@ -140,21 +140,21 @@ const publicationsData = [
       title: "Modelling of solar cells using novel perovskite structure",
       description: "Tadi Surya Reddy"
     },
-    {
-      type: "Doctoral (Supervised)",
-      title: "Mr. Belay Getachew Hailemariam",
-      description: "Graduated from Bahir Dar University, Bahir Dar, Ethiopia on 15th July 2021.",
-    },
-    {
-      type: "Doctoral (Supervised)",
-      title: "Mrs. Parul Goel",
-      description: "Successfully defended her thesis on 21st April, 2023. Visvesvaraya Technological University (VTU) Belagavi, India",
-    },
-    {
-      type: "Doctoral (Supervising)",
-      title: "Mr. Afrash Ejigu",
-      description: "Working on the effect of zinc and cadmium substitution on the optical properties of rare-earth doped niobo-tellurite glasses for photonic applications. (Bahir Dar University, joined in 2017). Ready to submit the thesis.",
-    },
+    // {
+    //   type: "Doctoral (Supervised)",
+    //   title: "Mr. Belay Getachew Hailemariam",
+    //   description: "Graduated from Bahir Dar University, Bahir Dar, Ethiopia on 15th July 2021.",
+    // },
+    // {
+    //   type: "Doctoral (Supervised)",
+    //   title: "Mrs. Parul Goel",
+    //   description: "Successfully defended her thesis on 21st April, 2023. Visvesvaraya Technological University (VTU) Belagavi, India",
+    // },
+    // {
+    //   type: "Doctoral (Supervising)",
+    //   title: "Mr. Afrash Ejigu",
+    //   description: "Working on the effect of zinc and cadmium substitution on the optical properties of rare-earth doped niobo-tellurite glasses for photonic applications. (Bahir Dar University, joined in 2017). Ready to submit the thesis.",
+    // },
     {
       type: "Masters (Supervised)",
       title: "Tuning the optical and electrical properties of glasses by quantum dot and carbon nanotubes",

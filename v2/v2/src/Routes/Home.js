@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 function Home() {
   return (
-    <div className="bg-[url('https://cdn.discordapp.com/attachments/1025099364584149094/1133239016385421402/homebg.png')] h-screen">
+    <div className="bg-[url('https://cdn.discordapp.com/attachments/1025099364584149094/1133239016385421402/homebg.png')]">
       <Navbar/>
         <div class="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-56">
             <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">Quantum Research Group</h1>
