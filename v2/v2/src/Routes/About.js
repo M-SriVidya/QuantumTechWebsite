@@ -5,7 +5,7 @@ function About() {
     return (
         <div>
             <Navbar/>
-            <div class="bg-[url('https://cdn.discordapp.com/attachments/1025099364584149094/1133828588496494662/IMG_20230203_142042.jpg')] p-12">
+            <div class="bg-[url('https://media.discordapp.net/attachments/1025099364584149094/1133841652872642671/complex-blue-network-data-structure-with-plexus-line-background-website-coordinate-for-business-or-science-wallpaper-vector.jpg')] p-12">
                 <h1 class="text-4xl font-bold text-blue-500 mb-4">About Us</h1>
                 <p class="text-xl text-white ml-6"> Welcome to the Quantum Computing Research Group, a dynamic and innovative team at the forefront of advancing quantum computing technologies. Our group specializes in the fascinating field of quantum computing with a focus on experimental physics. We are dedicated to pushing the boundaries of what is possible in this exciting and rapidly evolving area of research.</p>
                 <p class="text-3xl font-semibold text-blue-500 mt-8">Mission</p>
