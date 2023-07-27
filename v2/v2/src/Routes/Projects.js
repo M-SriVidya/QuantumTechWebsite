@@ -6,7 +6,7 @@ import { projectsData } from "../data"; // Assuming the project data is imported
 
 function App() {
   return (
-    <div className="bg-black">
+    <div className="bg-[url('https://media.discordapp.net/attachments/1025099364584149094/1133843402098741484/image.png')]">
             <div>
                 <Navbar/>
             </div>

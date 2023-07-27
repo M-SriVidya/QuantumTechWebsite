@@ -3,7 +3,7 @@ import Footer from "../Components/Footer";
 
 function Gallery() {
     return (       
-        <div className="bg-black">
+        <div className="bg-[url('https://media.discordapp.net/attachments/1025099364584149094/1133843402098741484/image.png')] ">
             <Navbar/>
             <div className="m-8 font-semibold text-white text-2xl text-center">People</div>
             <div class="grid grid-cols-2 md:grid-cols-3 gap-12">

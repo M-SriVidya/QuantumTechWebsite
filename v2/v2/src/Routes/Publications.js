@@ -8,7 +8,7 @@ function Publications() {
   return (
     <div>
       <Navbar />
-      <div className="flex flex-wrap justify-around p-5 bg-black">
+      <div className="flex flex-wrap justify-around p-5 bg-[url('https://media.discordapp.net/attachments/1025099364584149094/1133843402098741484/image.png')] ">
         {publicationsData.map((publication, index) => (
           <PublicationCard
             key={index} // Use a unique key for each component in the loop

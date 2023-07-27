@@ -4,7 +4,8 @@ import { Link } from "react-router-dom";
 
 function Home() {
   return (
-    <div className="bg-[url('https://cdn.discordapp.com/attachments/1025099364584149094/1133239016385421402/homebg.png')]">
+    <div className=" flex flex-col min-h-screen">
+    <div className="bg-[url('https://cdn.discordapp.com/attachments/1025099364584149094/1133239016385421402/homebg.png')] flex-auto">
       <Navbar/>
         <div class="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-56">
             <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">Quantum Tech Group</h1>
@@ -16,7 +17,8 @@ function Home() {
                 </Link>
             </div>
         </div>
-        <Footer />
+    </div>
+    <Footer />
     </div>
   );
 }
