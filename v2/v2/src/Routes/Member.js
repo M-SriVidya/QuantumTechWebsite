@@ -11,7 +11,7 @@ const mainMembers = [
     role: "Team Lead",
     image: "https://cdn.discordapp.com/attachments/1025099364584149094/1133253190599590029/image.png",
     link: "https://staff.pes.edu/nm1410/",
-    designation: "Associate Professor"
+    designation: "Professor"
   },
   {
     year: "",
@@ -19,15 +19,15 @@ const mainMembers = [
     role: "Research Associate",
     image: "https://media.discordapp.net/attachments/1025099364584149094/1133817726591311932/Screenshot_2023-07-26_at_11.14.20_PM.png",
     link: "https://staff.pes.edu/nm1433/",
-    designation: "Associate Professor",
+    designation: "Assistant Professor",
   },
   {
     year: "",
-    name: "Shreyus Goutham Kumar",
+    name: "Shreyus Gautham Kumar",
     role: "Research Associate",
-    image: "https://media.discordapp.net/attachments/1025099364584149094/1133820199628451961/def.png",
+    image: "https://cdn.discordapp.com/attachments/1025099364584149094/1134184327563976794/Prof.jpeg",
     link: "https://staff.pes.edu/nm1430/",
-    designation: "Associate Professor",
+    designation: "Assistant Professor",
   },
   {
       year: "",
@@ -40,46 +40,6 @@ const mainMembers = [
 ]
 
 const members = [
-  {
-    year: "4th Year",
-    name: "Aditya Kumar",
-    department: "PESU Electronic City department",
-  },
-  {
-    year: "4th Year",
-    name: "Sumeet",
-    department: "PESU Electronic City department",
-  },
-  {
-    year: "4th Year",
-    name: "Akash H Rao",
-    department: "PESU Electronic City department",
-  },
-  {
-    year: "4th Year",
-    name: "Shivakiran T S",
-    department: "PESU Electronic City department",
-  },
-  {
-    year: "4th Year",
-    name: "Navaneeth N Anchan",
-    department: "PESU Electronic City department",
-  },
-  {
-    year: "4th Year",
-    name: "Karan Aggarwal",
-    department: "PESU Electronic City department",
-  },
-  {
-    year: "4th Year",
-    name: "Tadi Surya Reddy",
-    department: "PESU Electronic City department",
-  },
-  {
-    year: "4th Year",
-    name: "Suraj",
-    department: "PESU Electronic City department",
-  },
   {
     year: "3rd Year",
     name: "Vandana",
@@ -118,27 +78,37 @@ const members = [
   {
     year: "1st Year",
     name: "Vyoman Jain",
-    department: "PESU Electronic City department",
+    department: "CSE department",
   },
   {
     year: "1st Year",
     name: "Shashwat Sinha",
-    department: "PESU Electronic City department",
+    department: "CSE department",
   },
   {
     year: "1st Year",
     name: "Sharodh S Rao",
-    department: "PESU Electronic City department",
+    department: "CSE department",
   },
   {
     year: "1st Year",
     name: "Arya Soni",
-    department: "PESU Electronic City department",
+    department: "CSE department",
   },
   {
     year: "1st Year",
-    name: "Samarth",
-    department: "PESU Electronic City department",
+    name: "Samarth P",
+    department: "CSE department",
+  },
+  {
+    year: "1st Year",
+    name: "Sumeet",
+    department: "CSE department",
+  },
+  {
+    year: "1st Year",
+    name: "Sai Sathvik",
+    department: "CSE department",
   },
 ];
 
@@ -146,57 +116,79 @@ const alumni = [
   {
     name: "P Shri Gurudatta",
     year: 2023,
-    project: "Synthesis, I-V analysis and frequency response of Co-doped CuS and ZnS Quantum Dot",
+    // project: "Synthesis, I-V analysis and frequency response of Co-doped CuS and ZnS Quantum Dot",
+    job: "CoreEl technology",
   },
   {
     name: "Aditya Kumar",
     year: 2023,
-    project: "Design of a new Quantum Multiplier based on novel Indian Algorithms",
+    // project: "Design of a new Quantum Multiplier based on novel Indian Algorithms",
+    job: "Qnu Labs",
   },
   {
     name: "Suraj N",
     year: 2023,
-    project: "BaZrS3 based solar cell, MaSnBr3 based Solar cell, Tandem Perovskite solar cells",
+    // project: "BaZrS3 based solar cell, MaSnBr3 based Solar cell, Tandem Perovskite solar cells",
+    job: "Sagility India Pvt Ltd",
   },
   {
     name: "Yatharth Bakshi",
     year: 2023,
-    project: "Quantum Dot Thin Films",
+    // project: "Quantum Dot Thin Films",
+    job: "Vobble",
   },
   {
     name: "Pranav S Kashyap",
     year: 2023,
-    project: "Synthesis of Quantum Dot and its applications",
+    // project: "Synthesis of Quantum Dot and its applications",
+    job: "PwC India",
   },
   {
     name: "Gajanan M Kamat",
     year: 2023,
-    project: "Quantum Dot synthesis for memory storage",
+    // project: "Quantum Dot synthesis for memory storage",
+    job: "Higher Studies - IIT Madras",
   },
   {
     name: "Navaneeth N Anchan",
     year: 2023,
-    project: "Quantum multipliers using Ancient Indian algorithms",
+    // project: "Quantum multipliers using Ancient Indian algorithms",
+    job: "Tejas Networks",
   },
   {
     name: "Karan Agarwal",
     year: 2023,
-    project: "Median filter for image editing, automated safety emergency device, memory model fabrication with quantum dots",
+    // project: "Median filter for image editing, automated safety emergency device, memory model fabrication with quantum dots",
+    job: "Maxwell",
+  },
+  {
+    name: "Shivakiran TS",
+    year: 2023,
+    // project: "Nikhilam Squarer for Quantum Computing, using Ancient multiplication algorithms to build",
+    job: "Ingersoll Rand",
   },
   {
     name: "Sneha R",
     year: 2023,
-    project: "Quantum dot",
+    // project: "Quantum dot",
+    job: "Nextrove",
   },
   {
     name: "Abhinaya K",
     year: 2023,
-    project: "Home automation related",
+    // project: "Home automation related",
+    job: "Tata Technologies",
   },
   {
     name: "Tadi Surya Teja Reddy",
     year: 2023,
-    project: "Perovskite Solar Cell",
+    // project: "Perovskite Solar Cell",
+    job: "",
+  },
+  {
+    name: "Akash H Rao",
+    year: "2023",
+    job: "",
   },
 ];
 
@@ -274,7 +266,7 @@ function Members() {
             key={index}
             name={member.name}
             year={member.year}
-            department={member.project}
+            department={member.job}
           />
         ))}
       </div>
