@@ -8,6 +8,15 @@ function Gallery() {
             <div className="m-8 font-semibold text-white text-2xl text-center">People</div>
             <div class="grid grid-cols-2 md:grid-cols-3 gap-12">
                 <div>
+                    <img class="h-auto max-w-full rounded-lg" src="https://cdn.discordapp.com/attachments/1025099364584149094/1136516600388927579/Group.jpeg" alt=""/>
+                </div>
+                <div>
+                    <img class="h-auto max-w-full rounded-lg" src="https://cdn.discordapp.com/attachments/1025099364584149094/1133818699841814668/20230203_154327.jpg" alt=""/>
+                </div>
+                <div>
+                    <img class="h-auto max-w-full rounded-lg" src="https://cdn.discordapp.com/attachments/1025099364584149094/1133818698826788925/20230203_145722.jpg" alt=""/>
+                </div>
+                <div>
                     <img class="h-auto max-w-full rounded-lg" src="https://cdn.discordapp.com/attachments/1025099364584149094/1133087715588591646/PHOTO-2023-07-24-18-09-06.jpg" alt=""/>
                 </div>
                 <div>
@@ -34,15 +43,9 @@ function Gallery() {
                 <div>
                     <img class="h-auto max-w-full rounded-lg" src="https://cdn.discordapp.com/attachments/1025099364584149094/1133818703469887488/PXL_20230203_150045305.NIGHT1.jpg" alt=""/>
                 </div>
-                <div>
-                    <img class="h-auto max-w-full rounded-lg" src="https://cdn.discordapp.com/attachments/1025099364584149094/1133818698826788925/20230203_145722.jpg" alt=""/>
-                </div>
-                <div>
-                    <img class="h-auto max-w-full rounded-lg" src="https://cdn.discordapp.com/attachments/1025099364584149094/1133818699841814668/20230203_154327.jpg" alt=""/>
-                </div>
-                <div>
+                {/* <div>
                     <img class="h-auto max-w-full rounded-lg" src="https://cdn.discordapp.com/attachments/1025099364584149094/1133821585212571879/IMG_20230203_142042.jpg" alt=""/>
-                </div>
+                </div> */}
             </div>
             <hr class="w-1/2 h-1 mx-auto my-8 bg-gray-100 border-0 rounded dark:bg-gray-700"></hr>
             <div className="mb-8 font-semibold text-white text-2xl text-center">Instrumentation</div>

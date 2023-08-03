@@ -110,6 +110,31 @@ const members = [
     name: "Sai Sathvik",
     department: "CSE department",
   },
+  {
+    year: "1st Year",
+    name: "Anirudh Raj",
+    department: "ECE department",
+  },
+  {
+    year: "1st Year",
+    name: "Arun I",
+    department: "ECE department",
+  },
+  {
+    year: "1st Year",
+    name: "C.V. Ananth",
+    department: "ECE department",
+  },
+  {
+    year: "1st Year",
+    name: "Naveen M",
+    department: "ECE department",
+  },
+  {
+    year: "1st Year",
+    name: "Aditya Jayashankar",
+    department: "ECE department",
+  },
 ];
 
 const alumni = [
