@@ -43,6 +43,7 @@ function Club() {
                     <li className="my-4"> After a sufficient number of students have joined and they have understood at least the basic knowledge of quantum computing, we may conduct Hackathons that will take place over the course of a weekend, with participants working in teams to solve challenging problems using quantum computing techniques.</li>
                 </ul>
             </p>
+            {/* Test */}
             <Footer/>
         </div>
     );
