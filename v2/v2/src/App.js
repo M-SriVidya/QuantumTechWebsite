@@ -7,10 +7,11 @@ import Publications from "./Routes/Publications";
 import Gallery from "./Routes/Gallery";
 import Projects from "./Routes/Projects";
 import ResearchFacilities from "./Routes/ResearchFacilities";
+import Club from "./Routes/Club";
 
 function App() {
   useEffect(() => {
-    document.title = "Quantamania"; // Change the title here
+    document.title = "Quantum Tech Group"; // Change the title here
   }, []);
   return (
     <BrowserRouter>
@@ -22,6 +23,7 @@ function App() {
         <Route path = "/Gallery" element = {<Gallery/>} />
         <Route path = "/Projects" element = {<Projects/>} />
         <Route path = "/Facilities" element = {<ResearchFacilities/>} />
+        <Route path = "/Club" element = {<Club/>} />
       </Routes>
     </BrowserRouter>
   );

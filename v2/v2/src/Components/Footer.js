@@ -17,7 +17,7 @@ function Footer(props) {
               <Link to="#" className="mr-4 hover:underline md:mr-6">Linkedin</Link>
             </li>
             <li>
-              <p className="hover:underline">Contact us at: </p>
+              <p>Contact us at: quantumania.ec@pes.edu</p>
             </li>
           </ul>
         </div>
