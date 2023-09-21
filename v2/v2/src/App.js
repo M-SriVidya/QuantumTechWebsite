@@ -11,7 +11,7 @@ import Club from "./Routes/Club";
 
 function App() {
   useEffect(() => {
-    document.title = "Quantum Tech Group"; // Change the title here
+    document.title = "QuaNaD"; // Change the title here
   }, []);
   return (
     <BrowserRouter>

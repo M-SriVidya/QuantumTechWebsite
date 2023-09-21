@@ -7,7 +7,7 @@ import StudentCard from "../Components/currentStudents";
 const mainMembers = [
   {
     year: "",
-    name: "Gajanan V Honnavar",
+    name: "Dr. Gajanan V Honnavar",
     role: "Team Lead",
     image: "https://cdn.discordapp.com/attachments/1025099364584149094/1133253190599590029/image.png",
     link: "https://staff.pes.edu/nm1410/",
@@ -15,7 +15,7 @@ const mainMembers = [
   },
   {
     year: "",
-    name: "Rajesh C",
+    name: "Mr. Rajesh C",
     role: "Research Associate",
     image: "https://media.discordapp.net/attachments/1025099364584149094/1133817726591311932/Screenshot_2023-07-26_at_11.14.20_PM.png",
     link: "https://staff.pes.edu/nm1433/",
@@ -23,7 +23,7 @@ const mainMembers = [
   },
   {
     year: "",
-    name: "Shreyus Gautham Kumar",
+    name: "Mr. Shreyus Gautham Kumar",
     role: "Research Associate",
     image: "https://cdn.discordapp.com/attachments/1025099364584149094/1134184327563976794/Prof.jpeg",
     link: "https://staff.pes.edu/nm1430/",
@@ -31,7 +31,7 @@ const mainMembers = [
   },
   {
       year: "",
-      name: "Omkar Sharma",
+      name: "Mr. Omkar Sharma",
       role: "Research Scholar",
       image: "https://media.discordapp.net/attachments/1025099364584149094/1133818906092507266/20230605105534000528.png?width=581&height=581",
       link: "https://staff.pes.edu/nm1661/",
@@ -78,21 +78,6 @@ const members = [
   {
     year: "1st Year",
     name: "Vyoman Jain",
-    department: "CSE department",
-  },
-  {
-    year: "1st Year",
-    name: "Shashwat Sinha",
-    department: "CSE department",
-  },
-  {
-    year: "1st Year",
-    name: "Sharodh S Rao",
-    department: "CSE department",
-  },
-  {
-    year: "1st Year",
-    name: "Arya Soni",
     department: "CSE department",
   },
   {
@@ -262,7 +247,7 @@ function Members() {
       </div>
       <div className="flex flex-wrap justify-around p-5 ">
         <MemberCard
-          name="Ms Parul Goel"
+          name="Dr. Parul Goel"
           role="St. Joseph College, bangalore"
           designation="Assistant Professor"
           image="https://www.sju.edu.in/uploads/faculty/medium/855750818_2022-07-04_06-43-00.jpg"
