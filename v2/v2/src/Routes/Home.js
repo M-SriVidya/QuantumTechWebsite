@@ -8,7 +8,7 @@ function Home() {
     <div className="bg-[url('https://cdn.discordapp.com/attachments/1025099364584149094/1133239016385421402/homebg.png')] flex-auto">
       <Navbar/>
         <div class="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-56">
-            <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">Quantum Tech Group</h1>
+            <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">QuaNaD</h1>
             <p class="mb-8 text-lg font-normal text-gray-300 lg:text-xl sm:px-16 lg:px-48">Join us on this exciting journey as we push the boundaries of what is possible in quantum computing and explore its profound impact on various domains.</p>
             <div class="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
                 <Link to="/About" class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">

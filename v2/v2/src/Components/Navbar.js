@@ -12,7 +12,8 @@ function Navbar() {
     <nav className="bg-white border-gray-200 dark:bg-gray-900">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <Link to="/" className="flex items-center">
-          <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Quantum Tech Group</span>
+          <img src="https://media.discordapp.net/attachments/1025099364584149094/1154316787412893706/Logo.jpg?width=200&height=182" height={40} width={36} className="mr-4"/>
+          <span className="text-2xl font-semibold whitespace-nowrap dark:text-white">QuaNaD</span>
         </Link>
         <button
           onClick={handleToggle}
