@@ -23,7 +23,7 @@ const mainMembers = [
   },
   {
     year: "",
-    name: "Mr. Shreyus Gautham Kumar",
+    name: "Mr. Shreyus Goutham Kumar",
     role: "Research Associate",
     image: "https://cdn.discordapp.com/attachments/1025099364584149094/1134184327563976794/Prof.jpeg",
     link: "https://staff.pes.edu/nm1430/",
@@ -157,7 +157,7 @@ const alumni = [
     name: "Gajanan M Kamat",
     year: 2023,
     // project: "Quantum Dot synthesis for memory storage",
-    job: "Higher Studies - IIT Madras",
+    job: "Graduate Student, IIT Madras",
   },
   {
     name: "Navaneeth N Anchan",
@@ -248,7 +248,7 @@ function Members() {
       <div className="flex flex-wrap justify-around p-5 ">
         <MemberCard
           name="Dr. Parul Goel"
-          role="St. Joseph College, bangalore"
+          role="St. Joseph College, Bangalore"
           designation="Assistant Professor"
           image="https://www.sju.edu.in/uploads/faculty/medium/855750818_2022-07-04_06-43-00.jpg"
           link="https://www.sjc.ac.in/department-of-computer-science"
@@ -269,6 +269,15 @@ function Members() {
       </div>
       <div className="flex flex-col items-center justify-center p-5 ">
         <h1 className="text-4xl font-bold text-white">Alumni</h1>
+      </div>
+      <div className="flex flex-wrap justify-around p-5">
+          <MemberCard
+            name="Mohamed Irfan"
+            role="Dept. of Material Science and Engineering, North Carolina State University"
+            designation="Graduate Student"
+            image="https://cdn.discordapp.com/attachments/1025099364584149094/1154655126569615403/e79b8aa5-188a-4952-8a7e-9c7f3a891fe7.png"
+            link="https://www.linkedin.com/in/irfanmohamed97"
+          />
       </div>
       <div className="flex flex-wrap justify-around p-5 ">
         {alumni.map((member, index) => (
