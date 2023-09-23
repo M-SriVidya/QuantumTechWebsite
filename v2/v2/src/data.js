@@ -185,6 +185,31 @@ const publicationsData = [
       title: "Fabrication of MRAM using Quantum Dots",
       description: "Students – Yatharth Bakshi, P Guru Datta, Karan Agarwal, and Gajanan Kamat ECE (2023)",
     },
+    {
+      type: "Conference Presentations",
+      title: "Solar cell material based on the optimum values of key parameters using PC1D",
+      description: "Authors - Shreyus Goutham Kumar, Antara P. Shetty, and C. R. Prashanth. Presented in 2021 2nd International Conference for Emerging Technology (INCET), pp. 1-6. IEEE, 2021.",
+    },
+    {
+      type: "Conference Presentations",
+      title: "Numerical simulation of PbS quantum dot solar cell and optimisation of absorber layer",
+      description: "Authors - Shreyus Goutham Kumar, Niharika R. Munjoji, K. Abhinaya, and Gajanan V. Honnavar. Presented in Materials Today: Proceedings (2023).",
+    },
+    {
+      type: "Conference Presentations",
+      title: "Numerical Study on novel MASnBr3 (Perovskite) based Tandem Photovoltaic Cell",
+      description: "Authors - Shreyus Goutham Kumar, N. Suraj, Tadi Surya Teja Reddy, C. R. Prashanth, and Gajanan V. Honnavar. Presented in 2023 4th International Conference for Emerging Technology (INCET), pp. 1-5. IEEE, 2023.",
+    },
+    {
+      type: "Conference Presentations",
+      title: "Investigating the Performance of a Wide Bandgap BaZrS3 Perovskite Tandem Solar Cell",
+      description: "Authors - Shreyus Goutham Kumar, N. Suraj, Anmol Pramod, C. R. Prashanth, and Gajanan V. Honnavar. Presented in 2023 International Conference on Smart Systems for applications in Electrical Sciences (ICSSES), pp. 1-6. IEEE, 2023.",
+    },
+    {
+      type: "Conference Presentations",
+      title: "Quantum modeling of transport theory in a 1-D nano device",
+      description: "Authors - Shreyus Goutham Kumar, KV Veerabhadra Swamy, and C. R. Prashanth. Presented in 2016 International Conference on Circuits, Controls, Communications and Computing (I4C), pp. 1-4. IEEE, 2016.",
+    },
   ];
   
 
